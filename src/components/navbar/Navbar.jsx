@@ -3,11 +3,11 @@ import NavLinks from "./navlinks/NavLinks";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="sticky top-0">
       <div className="flex justify-between py-5 px-4 bg-blue-500">
         {/* logo bar  */}
         <div>
-          <Link href='/' className="font-bold text-white">Logo</Link>
+          <Link href='/' className="font-bold text-white">ShopMobFast</Link>
         </div>
         {/* navbar links */}
         <NavLinks />
