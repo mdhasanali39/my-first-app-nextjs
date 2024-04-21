@@ -3,7 +3,7 @@ import NavLinks from "./navlinks/NavLinks";
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0">
+    <div className="sticky top-0 z-[9999]">
       <div className="flex justify-between py-5 px-4 bg-blue-500">
         {/* logo bar  */}
         <div>
