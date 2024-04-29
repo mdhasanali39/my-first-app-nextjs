@@ -9,11 +9,11 @@ const Hero = () => {
       {/* hero text content  */}
       <div className="flex-[2] space-y-4">
         <h2 className="text-4xl font-bold text-center lg:text-left">
-          Get Your <span className='text-blue-500'>Mobile</span> & <p> <span className='text-blue-500'>Accessories</span></p>
+          Get Your <span className='text-blue-500'>Want</span><p> Not So <span className='text-blue-500'> Hard</span></p>
         </h2>
         <p className="w-3/4 mx-auto lg:mx-0 text-center lg:text-left">
-          Discover the latest in mobile devices and accessories. Elevate your
-          tech experience with our curated selection of smartphones, cases,
+          Discover the latest shop items. Elevate your
+          tech experience with our curated selection of products, cases,
           headphones, and more.
         </p>
         {/* call to action button  */}

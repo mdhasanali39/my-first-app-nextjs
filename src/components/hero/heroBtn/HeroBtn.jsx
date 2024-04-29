@@ -6,7 +6,7 @@ const HeroBtn = () => {
     }
 
     return (
-        <button onClick={handleClick} className={styles.button}>
+        <button onClick={handleClick} className={`${styles.button}  bg-gradient-to-r from-blue-300 to-red-300`}>
           Grab Yours
           <svg fill="currentColor" viewBox="0 0 24 24" className={styles.icon}>
             <path
