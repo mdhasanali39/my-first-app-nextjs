@@ -1,6 +1,6 @@
 import NavItem from "./NavItem";
 
-const NavLinks = () => {
+const NavLinks = ({isOpen}) => {
 
     const links = [
         {
@@ -31,7 +31,7 @@ const NavLinks = () => {
     ]
 
     return (
-        <div className="flex gap-6">
+        <div className={`${isOpen?"translate-y-[28px]":"-translate-y-[600px] lg:translate-y-0"} flex flex-col lg:flex-row items-center gap-6 py-6 lg:py-0 my-10 lg:my-0 transition duration-500 bg-blue-500`}>
             {
                 links.map(link => <NavItem key={link.id} label={link.label} path={link.path}/>)
             }
